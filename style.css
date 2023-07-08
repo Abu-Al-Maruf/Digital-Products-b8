@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
 }
 header .nav-container {
   background-color: #000000c5;
@@ -67,7 +69,7 @@ header .logo img {
   color: #fff;
   background-color: rgb(255, 0, 0);
   padding: 12px 25px;
-  border-radius: 5px;
+  border-radius: 2px;
   cursor: pointer;
   border: 0;
   font-weight: bold;
@@ -81,3 +83,102 @@ header .logo img {
 .hero-right img{
     width: 300px;
 }
+
+
+
+/* about section */
+.about-left img{
+  width: 300px;
+}
+.about-container{
+  padding: 30px;
+}
+.about-container h1{
+    padding: 0px 30px 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.about-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.about-content .about-right h3{
+  font-size: 25px;
+}
+.about-right p{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.about-right button{
+  margin-top: 20px;
+  padding: 13px 18px;
+}
+.about-right button:hover{
+  outline: 1px solid #000000ab;
+}
+
+
+/* service section  */
+
+.service-container{
+  background-image: url(./images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  padding: 50px;
+}
+.service-container h1{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  padding: 0 30px 40px;
+}
+.service-container .box-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service-box{
+  width: 250px;
+  height: 310px;
+  box-shadow: 3px 3px 70px #ffffff4f;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.service-box img{
+  width: 80px;
+}
+.service-box p {
+  margin-top: 10px;
+}
+.service-box a{
+  text-decoration: none;
+  background-color: #ffffff25;
+  padding: 8px 12px;
+  border-radius: 2px;
+  color: #fff;
+}
+.service-box a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+.details{
+  position: absolute;
+  bottom: 20px;
+  left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
