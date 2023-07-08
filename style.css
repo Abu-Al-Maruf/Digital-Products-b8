@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ysabeau Infant', sans-serif;
+  font-family: "Ysabeau Infant", sans-serif;
 }
 header .nav-container {
   background-color: #000000c5;
@@ -13,6 +13,7 @@ header .nav-container {
 }
 header .logo img {
   width: 130px;
+  cursor: pointer;
 }
 .nav-container {
   padding: 15px 20px 20px;
@@ -49,7 +50,8 @@ header .logo img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(./images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  background-image: url(./images/background.png),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,67 +80,65 @@ header .logo img {
 .btn-primary:hover {
   color: rgb(255, 0, 0);
   background-color: #fff;
-  transition: .3s ;
+  transition: 0.3s;
 }
-.hero-right img{
-    width: 300px;
-}
-
-
-
-/* about section */
-.about-left img{
+.hero-right img {
   width: 300px;
 }
-.about-container{
+
+/* about section */
+.about-left img {
+  width: 300px;
+}
+.about-container {
   padding: 30px;
 }
-.about-container h1{
-    padding: 0px 30px 40px;
-    text-align: center;
-    font-size: 50px;
+.about-container h1 {
+  padding: 0px 30px 40px;
+  text-align: center;
+  font-size: 50px;
 }
-.about-content{
+.about-content {
   display: flex;
   justify-content: space-around;
   align-items: start;
 }
-.about-content .about-right h3{
+.about-content .about-right h3 {
   font-size: 25px;
 }
-.about-right p{
+.about-right p {
   margin-top: 10px;
   font-size: 18px;
 }
-.about-right button{
+.about-right button {
   margin-top: 20px;
   padding: 13px 18px;
 }
-.about-right button:hover{
+.about-right button:hover {
   outline: 1px solid #000000ab;
 }
 
-
 /* service section  */
 
-.service-container{
-  background-image: url(./images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+.service-container {
+  background-image: url(./images/background.png),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
   padding: 50px;
 }
-.service-container h1{
+.service-container h1 {
   text-align: center;
   color: #fff;
   font-size: 50px;
   padding: 0 30px 40px;
 }
-.service-container .box-container{
+.service-container .box-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.service-box{
+.service-box {
   width: 250px;
-  height: 310px;
+  height: 320px;
   box-shadow: 3px 3px 70px #ffffff4f;
   position: relative;
   color: #fff;
@@ -146,39 +146,94 @@ header .logo img {
   padding: 15px;
   border-radius: 5px;
 }
-.service-box img{
+.service-box img {
   width: 80px;
 }
 .service-box p {
   margin-top: 10px;
 }
-.service-box a{
+.service-box a {
   text-decoration: none;
   background-color: #ffffff25;
   padding: 8px 12px;
   border-radius: 2px;
   color: #fff;
 }
-.service-box a:hover{
+.service-box a:hover {
   text-decoration: underline;
   color: gray;
 }
-.details{
+.details {
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   left: 90px;
 }
 
+/* footer section  */
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+  width: 100%;
+  height: 70vh;
+  background-image: url(./asset/image/footer-bg.png),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-repeat: no-repeat;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 100px;
+}
+.footer-left {
+  flex-basis: 25%;
+}
+.footer-left img {
+  width: 150px;
+}
+.footer-left-info {
+  margin-bottom: 20px;
+}
+.footer-left p {
+  margin-top: 20px;
+  line-height: 2;
+}
+.links h3 {
+  margin-bottom: 30px;
+}
+.links ul li {
+  list-style: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.links ul li a:hover {
+  color: gray;
+}
+.contact-info h3 {
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+.contact-info p {
+  line-height: 2;
+}
+.last-foot hr {
+  width: 75%;
+  margin: 0 auto;
+  border: none;
+  border-top: 1px solid #ffffff96;
+}
+.last-foot {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+.last-foot p {
+  margin-top: 25px;
+  font-size: 12px;
+}
