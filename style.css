@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  background-color: #000000e0;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menus ul{
+    display: flex;
+}
+.menus ul li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 6px;
+}
+.menus ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menus ul li a:hover{
+    color: blueviolet;
+}
+
+.logo img{
+    width: 150px;
+}
